@@ -1,12 +1,12 @@
 #!/bin/bash
 
-$1 = "trump"
-$2 = "iran"
+person1 = $1
+person2 = $2
 
-echo "$1": "Hello, $2."
+echo "person1": "Hello, person2."
 
-echo "$2": "If you touch $1, the war will start immediately."
+echo "person2": "If you touch person1, the war will start immediately."
 
-echo "$1": "This is the last time I will release this bomb."
+echo "person1": "This is the last time I will release this bomb."
 
-echo "$2": "I've already seen your bomb, $1."
+echo "person2": "I've already seen your bomb, person1."
