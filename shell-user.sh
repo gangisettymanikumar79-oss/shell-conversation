@@ -1,7 +1,7 @@
 #!/bin/bash
 
-persion=$1
-persion=$2
+$1=trump
+$2=tran
 
 echo "$1": "Hello, $2."
 
