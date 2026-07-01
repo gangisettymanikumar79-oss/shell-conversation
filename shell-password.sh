@@ -1,5 +1,5 @@
 #!/bin/bash
 
-timestamp-start=$(data)
+timestamp-start=$(date)
 
 echo "$timestamp-start"
