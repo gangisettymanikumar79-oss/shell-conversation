@@ -1,4 +1,4 @@
-#%bin/bash
+#!/bin/bash
 today = wednesday
 if [ "$today" != "sunday" ]; then
  echo "today is sunday so it is doesn't hoilday"
