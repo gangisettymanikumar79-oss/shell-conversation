@@ -1,7 +1,7 @@
 #!/bin/bash
 
-$1=trump
-$2=tran
+$1 = "trump"
+$2 = "iran"
 
 echo "$1": "Hello, $2."
 
