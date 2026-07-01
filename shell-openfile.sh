@@ -1,11 +1,11 @@
 #!/bin/bash
 
-person1=$trump
-person2=$iran
-echo "$trump": "Hello, $iran."
+person1=$1
+person2=$2
+echo "$1": "Hello, $2."
 
-echo "$iran": "If you attack $trump, war will begin immediately."
+echo "$2": "If you attack $1, war will begin immediately."
 
-echo "$trump": "This is my final warning. I will use this bomb."
+echo "$1": "This is my final warning. I will use this bomb."
 
-echo "$iran": "We've already seen your bomb, $trump. We're ready."
+echo "$2": "We've already seen your bomb, $1. We're ready."
