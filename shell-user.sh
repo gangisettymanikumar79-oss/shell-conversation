@@ -1,9 +1,12 @@
 #!/bin/bash
 
-echo "India": "Hello, Pakistan."
+persion=$1
+persion=$2
 
-echo "Pakistan": "If you touch India, the war will start immediately."
+echo "$1": "Hello, $2."
 
-echo "India": "This is the last time I will release this bomb."
+echo "$2": "If you touch $1, the war will start immediately."
 
-echo "Pakistan": "I've already seen your bomb, India."
+echo "$1": "This is the last time I will release this bomb."
+
+echo "$2": "I've already seen your bomb, $1."
